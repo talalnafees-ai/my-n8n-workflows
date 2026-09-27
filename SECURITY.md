@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in this project, please report it responsibly by emailing the maintainers directly. Do not create public issues for security vulnerabilities.
 
-## Security Fixes Applied (November 2025)
+## Security Fixes Applied (September 2026)
 
 ### 1. Path Traversal Vulnerability (Fixed)
 **Issue #48**: Previously, the API server was vulnerable to path traversal attacks on Windows systems.
