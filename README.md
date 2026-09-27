@@ -1,4 +1,4 @@
-# n8n Workflow Collection
+# ⚡ Master Automation Hub: n8n Workflow Collection
 
 <div align="center">
 
@@ -6,20 +6,19 @@
 ![Workflows](https://img.shields.io/badge/Workflows-4343+-blue?style=for-the-badge)
 ![Integrations](https://img.shields.io/badge/Integrations-365+-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/zie619)
 
 ### The Ultimate Collection of n8n Automation Workflows
 
-**[Browse Online](https://zie619.github.io/n8n-workflows)** · **[Documentation](#documentation)** · **[Contributing](#contributing)** · **[License](#license)**
+**[Browse Online](https://talalnafees-ai.github.io/my-n8n-workflows)** · **[Documentation](#documentation)** · **[Contributing](#contributing)** · **[License](#license)**
 
 </div>
 
 ## What's New
 
-### Latest Updates (November 2025)
+### Latest Updates
 - **Enhanced Security**: Full security audit completed, all CVEs resolved
 - **Docker Support**: Multi-platform builds for linux/amd64 and linux/arm64
-- **GitHub Pages**: Live searchable interface at [zie619.github.io/n8n-workflows](https://zie619.github.io/n8n-workflows)
+- **GitHub Pages**: Live searchable interface at [talalnafees-ai.github.io/my-n8n-workflows](https://talalnafees-ai.github.io/my-n8n-workflows)
 - **Performance**: 100x faster search with SQLite FTS5 integration
 - **Modern UI**: Completely redesigned interface with dark/light mode
 
@@ -28,7 +27,7 @@
 ## Quick Access
 
 ### Use Online (No Installation)
-Visit **[zie619.github.io/n8n-workflows](https://zie619.github.io/n8n-workflows)** for instant access to:
+Visit **[talalnafees-ai.github.io/my-n8n-workflows](https://talalnafees-ai.github.io/my-n8n-workflows)** for instant access to:
 - **Smart Search** — Find workflows instantly
 - **15+ Categories** — Browse by use case
 - **Mobile Ready** — Works on any device
@@ -73,10 +72,11 @@ Visit **[zie619.github.io/n8n-workflows](https://zie619.github.io/n8n-workflows)
 - 100MB free disk space
 
 ### Quick Start
+
 ```bash
 # Clone the repository
-git clone https://github.com/Zie619/n8n-workflows.git
-cd n8n-workflows
+git clone https://github.com/talalnafees-ai/my-n8n-workflows.git
+cd my-n8n-workflows
 
 # Install dependencies
 pip install -r requirements.txt
@@ -89,13 +89,11 @@ python run.py
 ```
 
 ### Docker Installation
-```bash
-# Using Docker Hub
-docker run -p 8000:8000 zie619/n8n-workflows:latest
 
-# Or build locally
-docker build -t n8n-workflows .
-docker run -p 8000:8000 n8n-workflows
+```bash
+# Build locally
+docker build -t my-n8n-workflows .
+docker run -p 8000:8000 my-n8n-workflows
 ```
 
 ---
@@ -146,16 +144,16 @@ graph LR
 ## Repository Structure
 
 ```
-n8n-workflows/
+my-n8n-workflows/
 ├── workflows/           # 4,343 workflow JSON files
 │   └── [category]/     # Organized by integration
-├── docs/               # GitHub Pages site
-├── src/                # Python source code
-├── scripts/            # Utility scripts
-├── api_server.py       # FastAPI application
-├── run.py              # Server launcher
-├── workflow_db.py      # Database manager
-└── requirements.txt    # Python dependencies
+├── docs/                # GitHub Pages site
+├── src/                 # Python source code
+├── scripts/              # Utility scripts
+├── api_server.py         # FastAPI application
+├── run.py                # Server launcher
+├── workflow_db.py        # Database manager
+└── requirements.txt      # Python dependencies
 ```
 
 ---
@@ -165,16 +163,17 @@ n8n-workflows/
 We love contributions! Here's how you can help:
 
 ### Ways to Contribute
-- **Report bugs** via [Issues](https://github.com/Zie619/n8n-workflows/issues)
-- **Suggest features** in [Discussions](https://github.com/Zie619/n8n-workflows/discussions)
+- **Report bugs** via [Issues](https://github.com/talalnafees-ai/my-n8n-workflows/issues)
+- **Suggest features** in [Discussions](https://github.com/talalnafees-ai/my-n8n-workflows/discussions)
 - **Improve documentation**
 - **Submit workflow fixes**
 - **Star the repository**
 
 ### Development Setup
+
 ```bash
 # Fork and clone
-git clone https://github.com/YOUR_USERNAME/n8n-workflows.git
+git clone https://github.com/YOUR_USERNAME/my-n8n-workflows.git
 
 # Create branch
 git checkout -b feature/amazing-feature
@@ -204,7 +203,7 @@ git push origin feature/amazing-feature
 - Regular security scanning
 
 ### Reporting Security Issues
-Please report security vulnerabilities to the maintainers via [Security Advisory](https://github.com/Zie619/n8n-workflows/security/advisories/new).
+Please report security vulnerabilities to the maintainers via [Security Advisory](https://github.com/talalnafees-ai/my-n8n-workflows/security/advisories/new).
 
 ---
 
@@ -214,26 +213,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Support
-
-If you find this project helpful, please consider:
-
 <div align="center">
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/zie619)
-[![Star on GitHub](https://img.shields.io/badge/Star%20on%20GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Zie619/n8n-workflows)
-
-</div>
-
----
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/Zie619/n8n-workflows?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Zie619/n8n-workflows?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Zie619/n8n-workflows?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Zie619/n8n-workflows)
-![GitHub last commit](https://img.shields.io/github/last-commit/Zie619/n8n-workflows)
+![GitHub stars](https://img.shields.io/github/stars/talalnafees-ai/my-n8n-workflows?style=social)
+![GitHub forks](https://img.shields.io/github/forks/talalnafees-ai/my-n8n-workflows?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/talalnafees-ai/my-n8n-workflows?style=social)
+![GitHub issues](https://img.shields.io/github/issues/talalnafees-ai/my-n8n-workflows)
+![GitHub last commit](https://img.shields.io/github/last-commit/talalnafees-ai/my-n8n-workflows)
 
 </div>
 
@@ -243,16 +229,6 @@ If you find this project helpful, please consider:
 
 **Star us on GitHub — it motivates us a lot!**
 
-Made with care by [Zie619](https://github.com/Zie619) and [contributors](https://github.com/Zie619/n8n-workflows/graphs/contributors)
-
-<br />
-
-<a href="https://github.com/Trusera/ai-bom">
-  <img src="https://raw.githubusercontent.com/Trusera/ai-bom/main/assets/logo.png" alt="AI-BOM" width="50" />
-</a>
-
-**[AI-BOM](https://github.com/Trusera/ai-bom)** — Discover every AI agent, model, and API hiding in your infrastructure.
-<br />
-Open source by **[Trusera](https://trusera.dev)** — Securing the Agentic Service Mesh.
+Maintained & Curated by [Talal Nafees](https://github.com/talalnafees-ai)
 
 </div>
