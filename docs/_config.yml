@@ -1,0 +1,5 @@
+theme: null
+title: N8N Workflows Repository
+description: Browse and search 2000+ n8n workflow automation templates
+baseurl: "/my-n8n-workflows"
+url: "https://github.io"
